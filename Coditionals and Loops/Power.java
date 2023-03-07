@@ -3,7 +3,10 @@ import java.util.*;
 public class Power {
 
 
-   public static void main(String []args){
+   /**
+ * @param args
+ */
+public static void main(String []args){
 
     Scanner s = new Scanner(System.in);
     int x = s.nextInt();
@@ -13,11 +16,13 @@ public class Power {
 
     if(n == 0){
         System.out.println( 1);
+        s.close();
         return ;
     }
 
     if(n ==1){
         System.out.println(x);
+        s.close();
         return;
     }
 
@@ -29,6 +34,7 @@ public class Power {
         n--;
     }
     System.out.println(result);
+    s.close();
    }
     
 }
