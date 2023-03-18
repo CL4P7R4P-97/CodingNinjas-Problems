@@ -40,5 +40,6 @@ public class Fibonacci_Number {
 
 
         check(num);
+        s.close();
     }
 }

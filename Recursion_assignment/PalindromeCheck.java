@@ -6,7 +6,7 @@ public class PalindromeCheck {
 		// Write your code here
      
 
-     if( input.length() == 1 ){
+     if( input.length() == 1 || input.length() == 0 ){
          return true;
      }
 

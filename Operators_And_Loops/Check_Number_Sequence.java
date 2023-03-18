@@ -11,6 +11,7 @@ public class Check_Number_Sequence {
         Scanner s = new Scanner(System.in);
 
         int n = s.nextInt();
+        
         int prev = -1;
         boolean isDec = true;
         int i = 0;
